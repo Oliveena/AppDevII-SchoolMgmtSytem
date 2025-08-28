@@ -14,6 +14,18 @@ builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.Requ
     .AddEntityFrameworkStores<ApplicationDbContext>();
 builder.Services.AddControllersWithViews();
 
+// for connecting both DB 
+
+//builder.Services.AddDbContext<SecureDbContext>(options =>
+//    options.UseSqlServer(builder.Configuration.GetConnectionString("SecureDB")));
+
+//builder.Services.AddDbContext<SchoolDbContext>(options =>
+//    options.UseSqlServer(builder.Configuration.GetConnectionString("Project_xx_DB")));
+
+//builder.Services.AddIdentity<ApplicationUser, IdentityRole>()
+//    .AddEntityFrameworkStores<SecureDbContext>()
+//    .AddDefaultTokenProviders();
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
