@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 2025-08-25
 
 Ana
@@ -116,3 +117,60 @@ Kirill
 - What has been done?  
 - What needs to be done?
 - Any help required?
+=======
+2025-08-25
+
+Ana
+
+- What has been done?  N/A
+- What needs to be done? 
+	- Google doc set-up for proposal
+	- GitHub repo
+	- 
+- Any help required? no
+
+Khadis
+
+- What has been done?  N/A
+- What needs to be done?
+
+- Any help required? no
+
+Kirill
+
+- What has been done?  N/A
+- What needs to be done?
+- Any help required? no
+
+Role distribution: 
+• Project Proposal - Anastassia
+• Feasibility Study (4 aspects) - Kirill
+• SDLC documentation - Kirill
+• UML Diagrams (4 minimum) - Ana
+• Conceptual Database ERD - Khadis
+• Identity Role Plan - Ana
+
+2025-08-26
+
+Ana
+
+- What has been done?  
+- What needs to be done? 
+	- Google doc set-up for proposal
+	- GitHub repo
+	
+- Any help required? 
+
+Khadis
+
+- What has been done? 
+- What needs to be done?
+
+- Any help required?
+
+Kirill
+
+- What has been done?  
+- What needs to be done?
+- Any help required?
+>>>>>>> 0a0def7a2946ab2da1adfa68dd8765d88b7810a0
