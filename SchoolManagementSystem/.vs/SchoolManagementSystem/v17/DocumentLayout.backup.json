@@ -3,20 +3,56 @@
   "WorkspaceRootPath": "C:\\Users\\anata\\Documents\\GitHub\\AppDevII-SchoolMgmtSytem\\SchoolManagementSystem\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E5B25A06-879F-486C-81E1-6DBB4EA216A8}|SchoolManagementSystem\\SchoolManagementSystem.csproj|c:\\users\\anata\\documents\\github\\appdevii-schoolmgmtsytem\\schoolmanagementsystem\\schoolmanagementsystem\\data\\class.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E5B25A06-879F-486C-81E1-6DBB4EA216A8}|SchoolManagementSystem\\SchoolManagementSystem.csproj|solutionrelative:schoolmanagementsystem\\data\\class.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E5B25A06-879F-486C-81E1-6DBB4EA216A8}|SchoolManagementSystem\\SchoolManagementSystem.csproj|c:\\users\\anata\\documents\\github\\appdevii-schoolmgmtsytem\\schoolmanagementsystem\\schoolmanagementsystem\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E5B25A06-879F-486C-81E1-6DBB4EA216A8}|SchoolManagementSystem\\SchoolManagementSystem.csproj|solutionrelative:schoolmanagementsystem\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E5B25A06-879F-486C-81E1-6DBB4EA216A8}|SchoolManagementSystem\\SchoolManagementSystem.csproj|c:\\users\\anata\\documents\\github\\appdevii-schoolmgmtsytem\\schoolmanagementsystem\\schoolmanagementsystem\\data\\identitydb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E5B25A06-879F-486C-81E1-6DBB4EA216A8}|SchoolManagementSystem\\SchoolManagementSystem.csproj|solutionrelative:schoolmanagementsystem\\data\\identitydb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E5B25A06-879F-486C-81E1-6DBB4EA216A8}|SchoolManagementSystem\\SchoolManagementSystem.csproj|c:\\users\\anata\\documents\\github\\appdevii-schoolmgmtsytem\\schoolmanagementsystem\\schoolmanagementsystem\\services\\enrollmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5B25A06-879F-486C-81E1-6DBB4EA216A8}|SchoolManagementSystem\\SchoolManagementSystem.csproj|solutionrelative:schoolmanagementsystem\\services\\enrollmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E5B25A06-879F-486C-81E1-6DBB4EA216A8}|SchoolManagementSystem\\SchoolManagementSystem.csproj|c:\\users\\anata\\documents\\github\\appdevii-schoolmgmtsytem\\schoolmanagementsystem\\schoolmanagementsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E5B25A06-879F-486C-81E1-6DBB4EA216A8}|SchoolManagementSystem\\SchoolManagementSystem.csproj|solutionrelative:schoolmanagementsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E5B25A06-879F-486C-81E1-6DBB4EA216A8}|SchoolManagementSystem\\SchoolManagementSystem.csproj|c:\\users\\anata\\documents\\github\\appdevii-schoolmgmtsytem\\schoolmanagementsystem\\schoolmanagementsystem\\services\\gradebookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5B25A06-879F-486C-81E1-6DBB4EA216A8}|SchoolManagementSystem\\SchoolManagementSystem.csproj|solutionrelative:schoolmanagementsystem\\services\\gradebookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E5B25A06-879F-486C-81E1-6DBB4EA216A8}|SchoolManagementSystem\\SchoolManagementSystem.csproj|c:\\users\\anata\\documents\\github\\appdevii-schoolmgmtsytem\\schoolmanagementsystem\\schoolmanagementsystem\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E5B25A06-879F-486C-81E1-6DBB4EA216A8}|SchoolManagementSystem\\SchoolManagementSystem.csproj|solutionrelative:schoolmanagementsystem\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E5B25A06-879F-486C-81E1-6DBB4EA216A8}|SchoolManagementSystem\\SchoolManagementSystem.csproj|c:\\users\\anata\\documents\\github\\appdevii-schoolmgmtsytem\\schoolmanagementsystem\\schoolmanagementsystem\\patterns\\observer\\gradeauditlogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5B25A06-879F-486C-81E1-6DBB4EA216A8}|SchoolManagementSystem\\SchoolManagementSystem.csproj|solutionrelative:schoolmanagementsystem\\patterns\\observer\\gradeauditlogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5B25A06-879F-486C-81E1-6DBB4EA216A8}|SchoolManagementSystem\\SchoolManagementSystem.csproj|c:\\users\\anata\\documents\\github\\appdevii-schoolmgmtsytem\\schoolmanagementsystem\\schoolmanagementsystem\\patterns\\observer\\gradeemailnotifier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5B25A06-879F-486C-81E1-6DBB4EA216A8}|SchoolManagementSystem\\SchoolManagementSystem.csproj|solutionrelative:schoolmanagementsystem\\patterns\\observer\\gradeemailnotifier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5B25A06-879F-486C-81E1-6DBB4EA216A8}|SchoolManagementSystem\\SchoolManagementSystem.csproj|c:\\users\\anata\\documents\\github\\appdevii-schoolmgmtsytem\\schoolmanagementsystem\\schoolmanagementsystem\\patterns\\observer\\igradeobserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5B25A06-879F-486C-81E1-6DBB4EA216A8}|SchoolManagementSystem\\SchoolManagementSystem.csproj|solutionrelative:schoolmanagementsystem\\patterns\\observer\\igradeobserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5B25A06-879F-486C-81E1-6DBB4EA216A8}|SchoolManagementSystem\\SchoolManagementSystem.csproj|c:\\users\\anata\\documents\\github\\appdevii-schoolmgmtsytem\\schoolmanagementsystem\\schoolmanagementsystem\\patterns\\observer\\gradesubject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5B25A06-879F-486C-81E1-6DBB4EA216A8}|SchoolManagementSystem\\SchoolManagementSystem.csproj|solutionrelative:schoolmanagementsystem\\patterns\\observer\\gradesubject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5B25A06-879F-486C-81E1-6DBB4EA216A8}|SchoolManagementSystem\\SchoolManagementSystem.csproj|c:\\users\\anata\\documents\\github\\appdevii-schoolmgmtsytem\\schoolmanagementsystem\\schoolmanagementsystem\\patterns\\interfaces\\igraderepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5B25A06-879F-486C-81E1-6DBB4EA216A8}|SchoolManagementSystem\\SchoolManagementSystem.csproj|solutionrelative:schoolmanagementsystem\\patterns\\interfaces\\igraderepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5B25A06-879F-486C-81E1-6DBB4EA216A8}|SchoolManagementSystem\\SchoolManagementSystem.csproj|c:\\users\\anata\\documents\\github\\appdevii-schoolmgmtsytem\\schoolmanagementsystem\\schoolmanagementsystem\\models\\people\\teacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5B25A06-879F-486C-81E1-6DBB4EA216A8}|SchoolManagementSystem\\SchoolManagementSystem.csproj|solutionrelative:schoolmanagementsystem\\models\\people\\teacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5B25A06-879F-486C-81E1-6DBB4EA216A8}|SchoolManagementSystem\\SchoolManagementSystem.csproj|c:\\users\\anata\\documents\\github\\appdevii-schoolmgmtsytem\\schoolmanagementsystem\\schoolmanagementsystem\\models\\people\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5B25A06-879F-486C-81E1-6DBB4EA216A8}|SchoolManagementSystem\\SchoolManagementSystem.csproj|solutionrelative:schoolmanagementsystem\\models\\people\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5B25A06-879F-486C-81E1-6DBB4EA216A8}|SchoolManagementSystem\\SchoolManagementSystem.csproj|c:\\users\\anata\\documents\\github\\appdevii-schoolmgmtsytem\\schoolmanagementsystem\\schoolmanagementsystem\\models\\people\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5B25A06-879F-486C-81E1-6DBB4EA216A8}|SchoolManagementSystem\\SchoolManagementSystem.csproj|solutionrelative:schoolmanagementsystem\\models\\people\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5B25A06-879F-486C-81E1-6DBB4EA216A8}|SchoolManagementSystem\\SchoolManagementSystem.csproj|c:\\users\\anata\\documents\\github\\appdevii-schoolmgmtsytem\\schoolmanagementsystem\\schoolmanagementsystem\\models\\roles\\roles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5B25A06-879F-486C-81E1-6DBB4EA216A8}|SchoolManagementSystem\\SchoolManagementSystem.csproj|solutionrelative:schoolmanagementsystem\\models\\roles\\roles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5B25A06-879F-486C-81E1-6DBB4EA216A8}|SchoolManagementSystem\\SchoolManagementSystem.csproj|c:\\users\\anata\\documents\\github\\appdevii-schoolmgmtsytem\\schoolmanagementsystem\\schoolmanagementsystem\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5B25A06-879F-486C-81E1-6DBB4EA216A8}|SchoolManagementSystem\\SchoolManagementSystem.csproj|solutionrelative:schoolmanagementsystem\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,67 +62,182 @@
       "DocumentGroups": [
         {
           "DockedHeight": 365,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Class.cs",
-              "DocumentMoniker": "C:\\Users\\anata\\Documents\\GitHub\\AppDevII-SchoolMgmtSytem\\SchoolManagementSystem\\SchoolManagementSystem\\Data\\Class.cs",
-              "RelativeDocumentMoniker": "SchoolManagementSystem\\Data\\Class.cs",
-              "ToolTip": "C:\\Users\\anata\\Documents\\GitHub\\AppDevII-SchoolMgmtSytem\\SchoolManagementSystem\\SchoolManagementSystem\\Data\\Class.cs",
-              "RelativeToolTip": "SchoolManagementSystem\\Data\\Class.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-28T15:15:13.877Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "IdentityDB.cs",
-              "DocumentMoniker": "C:\\Users\\anata\\Documents\\GitHub\\AppDevII-SchoolMgmtSytem\\SchoolManagementSystem\\SchoolManagementSystem\\Data\\IdentityDB.cs",
-              "RelativeDocumentMoniker": "SchoolManagementSystem\\Data\\IdentityDB.cs",
-              "ToolTip": "C:\\Users\\anata\\Documents\\GitHub\\AppDevII-SchoolMgmtSytem\\SchoolManagementSystem\\SchoolManagementSystem\\Data\\IdentityDB.cs",
-              "RelativeToolTip": "SchoolManagementSystem\\Data\\IdentityDB.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-28T15:13:52.678Z",
+              "Title": "_LoginPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\anata\\Documents\\GitHub\\AppDevII-SchoolMgmtSytem\\SchoolManagementSystem\\SchoolManagementSystem\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeDocumentMoniker": "SchoolManagementSystem\\Views\\Shared\\_LoginPartial.cshtml",
+              "ToolTip": "C:\\Users\\anata\\Documents\\GitHub\\AppDevII-SchoolMgmtSytem\\SchoolManagementSystem\\SchoolManagementSystem\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeToolTip": "SchoolManagementSystem\\Views\\Shared\\_LoginPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-29T00:19:54.962Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\anata\\Documents\\GitHub\\AppDevII-SchoolMgmtSytem\\SchoolManagementSystem\\SchoolManagementSystem\\Data\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "SchoolManagementSystem\\Data\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\anata\\Documents\\GitHub\\AppDevII-SchoolMgmtSytem\\SchoolManagementSystem\\SchoolManagementSystem\\Data\\ApplicationDbContext.cs",
-              "RelativeToolTip": "SchoolManagementSystem\\Data\\ApplicationDbContext.cs",
+              "Title": "GradeAuditLogger.cs",
+              "DocumentMoniker": "C:\\Users\\anata\\Documents\\GitHub\\AppDevII-SchoolMgmtSytem\\SchoolManagementSystem\\SchoolManagementSystem\\Patterns\\Observer\\GradeAuditLogger.cs",
+              "RelativeDocumentMoniker": "SchoolManagementSystem\\Patterns\\Observer\\GradeAuditLogger.cs",
+              "ToolTip": "C:\\Users\\anata\\Documents\\GitHub\\AppDevII-SchoolMgmtSytem\\SchoolManagementSystem\\SchoolManagementSystem\\Patterns\\Observer\\GradeAuditLogger.cs",
+              "RelativeToolTip": "SchoolManagementSystem\\Patterns\\Observer\\GradeAuditLogger.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T23:20:06.915Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GradeEmailNotifier.cs",
+              "DocumentMoniker": "C:\\Users\\anata\\Documents\\GitHub\\AppDevII-SchoolMgmtSytem\\SchoolManagementSystem\\SchoolManagementSystem\\Patterns\\Observer\\GradeEmailNotifier.cs",
+              "RelativeDocumentMoniker": "SchoolManagementSystem\\Patterns\\Observer\\GradeEmailNotifier.cs",
+              "ToolTip": "C:\\Users\\anata\\Documents\\GitHub\\AppDevII-SchoolMgmtSytem\\SchoolManagementSystem\\SchoolManagementSystem\\Patterns\\Observer\\GradeEmailNotifier.cs",
+              "RelativeToolTip": "SchoolManagementSystem\\Patterns\\Observer\\GradeEmailNotifier.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-28T15:12:29.839Z",
+              "WhenOpened": "2025-08-28T23:19:57.791Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "GradeSubject.cs",
+              "DocumentMoniker": "C:\\Users\\anata\\Documents\\GitHub\\AppDevII-SchoolMgmtSytem\\SchoolManagementSystem\\SchoolManagementSystem\\Patterns\\Observer\\GradeSubject.cs",
+              "RelativeDocumentMoniker": "SchoolManagementSystem\\Patterns\\Observer\\GradeSubject.cs",
+              "ToolTip": "C:\\Users\\anata\\Documents\\GitHub\\AppDevII-SchoolMgmtSytem\\SchoolManagementSystem\\SchoolManagementSystem\\Patterns\\Observer\\GradeSubject.cs",
+              "RelativeToolTip": "SchoolManagementSystem\\Patterns\\Observer\\GradeSubject.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAABsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T23:19:38.795Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IGradeObserver.cs",
+              "DocumentMoniker": "C:\\Users\\anata\\Documents\\GitHub\\AppDevII-SchoolMgmtSytem\\SchoolManagementSystem\\SchoolManagementSystem\\Patterns\\Observer\\IGradeObserver.cs",
+              "RelativeDocumentMoniker": "SchoolManagementSystem\\Patterns\\Observer\\IGradeObserver.cs",
+              "ToolTip": "C:\\Users\\anata\\Documents\\GitHub\\AppDevII-SchoolMgmtSytem\\SchoolManagementSystem\\SchoolManagementSystem\\Patterns\\Observer\\IGradeObserver.cs",
+              "RelativeToolTip": "SchoolManagementSystem\\Patterns\\Observer\\IGradeObserver.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T23:19:14.782Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\anata\\Documents\\GitHub\\AppDevII-SchoolMgmtSytem\\SchoolManagementSystem\\SchoolManagementSystem\\Program.cs",
-              "RelativeDocumentMoniker": "SchoolManagementSystem\\Program.cs",
-              "ToolTip": "C:\\Users\\anata\\Documents\\GitHub\\AppDevII-SchoolMgmtSytem\\SchoolManagementSystem\\SchoolManagementSystem\\Program.cs",
-              "RelativeToolTip": "SchoolManagementSystem\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAaAAAAAAAAAA==",
+              "Title": "GradebookService.cs",
+              "DocumentMoniker": "C:\\Users\\anata\\Documents\\GitHub\\AppDevII-SchoolMgmtSytem\\SchoolManagementSystem\\SchoolManagementSystem\\Services\\GradebookService.cs",
+              "RelativeDocumentMoniker": "SchoolManagementSystem\\Services\\GradebookService.cs",
+              "ToolTip": "C:\\Users\\anata\\Documents\\GitHub\\AppDevII-SchoolMgmtSytem\\SchoolManagementSystem\\SchoolManagementSystem\\Services\\GradebookService.cs",
+              "RelativeToolTip": "SchoolManagementSystem\\Services\\GradebookService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-28T14:36:34.3Z",
+              "WhenOpened": "2025-08-28T23:07:02.075Z",
               "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IGradeRepository.cs",
+              "DocumentMoniker": "C:\\Users\\anata\\Documents\\GitHub\\AppDevII-SchoolMgmtSytem\\SchoolManagementSystem\\SchoolManagementSystem\\Patterns\\Interfaces\\IGradeRepository.cs",
+              "RelativeDocumentMoniker": "SchoolManagementSystem\\Patterns\\Interfaces\\IGradeRepository.cs",
+              "ToolTip": "C:\\Users\\anata\\Documents\\GitHub\\AppDevII-SchoolMgmtSytem\\SchoolManagementSystem\\SchoolManagementSystem\\Patterns\\Interfaces\\IGradeRepository.cs",
+              "RelativeToolTip": "SchoolManagementSystem\\Patterns\\Interfaces\\IGradeRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T23:05:19.286Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Teacher.cs",
+              "DocumentMoniker": "C:\\Users\\anata\\Documents\\GitHub\\AppDevII-SchoolMgmtSytem\\SchoolManagementSystem\\SchoolManagementSystem\\Models\\People\\Teacher.cs",
+              "RelativeDocumentMoniker": "SchoolManagementSystem\\Models\\People\\Teacher.cs",
+              "ToolTip": "C:\\Users\\anata\\Documents\\GitHub\\AppDevII-SchoolMgmtSytem\\SchoolManagementSystem\\SchoolManagementSystem\\Models\\People\\Teacher.cs",
+              "RelativeToolTip": "SchoolManagementSystem\\Models\\People\\Teacher.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAgwAwAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T17:00:11.752Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\Users\\anata\\Documents\\GitHub\\AppDevII-SchoolMgmtSytem\\SchoolManagementSystem\\SchoolManagementSystem\\Models\\People\\Student.cs",
+              "RelativeDocumentMoniker": "SchoolManagementSystem\\Models\\People\\Student.cs",
+              "ToolTip": "C:\\Users\\anata\\Documents\\GitHub\\AppDevII-SchoolMgmtSytem\\SchoolManagementSystem\\SchoolManagementSystem\\Models\\People\\Student.cs",
+              "RelativeToolTip": "SchoolManagementSystem\\Models\\People\\Student.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T17:03:04.717Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Person.cs",
+              "DocumentMoniker": "C:\\Users\\anata\\Documents\\GitHub\\AppDevII-SchoolMgmtSytem\\SchoolManagementSystem\\SchoolManagementSystem\\Models\\People\\Person.cs",
+              "RelativeDocumentMoniker": "SchoolManagementSystem\\Models\\People\\Person.cs",
+              "ToolTip": "C:\\Users\\anata\\Documents\\GitHub\\AppDevII-SchoolMgmtSytem\\SchoolManagementSystem\\SchoolManagementSystem\\Models\\People\\Person.cs",
+              "RelativeToolTip": "SchoolManagementSystem\\Models\\People\\Person.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T17:00:14.227Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EnrollmentService.cs",
+              "DocumentMoniker": "C:\\Users\\anata\\Documents\\GitHub\\AppDevII-SchoolMgmtSytem\\SchoolManagementSystem\\SchoolManagementSystem\\Services\\EnrollmentService.cs",
+              "RelativeDocumentMoniker": "SchoolManagementSystem\\Services\\EnrollmentService.cs",
+              "ToolTip": "C:\\Users\\anata\\Documents\\GitHub\\AppDevII-SchoolMgmtSytem\\SchoolManagementSystem\\SchoolManagementSystem\\Services\\EnrollmentService.cs",
+              "RelativeToolTip": "SchoolManagementSystem\\Services\\EnrollmentService.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAIA8wEYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T18:55:46.291Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Roles.cs",
+              "DocumentMoniker": "C:\\Users\\anata\\Documents\\GitHub\\AppDevII-SchoolMgmtSytem\\SchoolManagementSystem\\SchoolManagementSystem\\Models\\Roles\\Roles.cs",
+              "RelativeDocumentMoniker": "SchoolManagementSystem\\Models\\Roles\\Roles.cs",
+              "ToolTip": "C:\\Users\\anata\\Documents\\GitHub\\AppDevII-SchoolMgmtSytem\\SchoolManagementSystem\\SchoolManagementSystem\\Models\\Roles\\Roles.cs",
+              "RelativeToolTip": "SchoolManagementSystem\\Models\\Roles\\Roles.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T15:54:12.315Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\anata\\Documents\\GitHub\\AppDevII-SchoolMgmtSytem\\SchoolManagementSystem\\SchoolManagementSystem\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "SchoolManagementSystem\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\anata\\Documents\\GitHub\\AppDevII-SchoolMgmtSytem\\SchoolManagementSystem\\SchoolManagementSystem\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "SchoolManagementSystem\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T15:28:32.586Z"
             }
           ]
         }

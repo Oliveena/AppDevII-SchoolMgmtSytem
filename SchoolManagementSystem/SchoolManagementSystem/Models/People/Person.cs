@@ -12,10 +12,7 @@ namespace SchoolManagementSystem.Models.People
 
         required public string PhoneNo { get; set; }
 
-        required public string Address { get; set; }
-
-        // potenital split of Adress into individual components, once MVP is done
-        // public Address Address { get; set; }
+        
 
     }
 

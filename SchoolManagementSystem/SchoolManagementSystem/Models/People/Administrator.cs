@@ -1,15 +1,17 @@
-﻿using SchoolManagementSystem.Models.Courses;
-using SchoolManagementSystem.Models.Grades;
-using SchoolManagementSystem.Models.Users;
+﻿using SchoolManagementSystem.Models.Users;
 
 namespace SchoolManagementSystem.Models.People
 {
-    public class Administrator : User
+    public class Administrator
     {
-        required public string AdministrationStaffNumber { get; set; }
+        public int AdministratorId { get; set; }
 
-        // Optional: Roles or permissions collection for refining controls 
-        // public ICollection<Role> Roles { get; set; }
+        public required string AdministrationStaffNumber { get; set; }
+
+        // Link to Identity user
+        public required string ApplicationUserId { get; set; }
+        public required ApplicationUser ApplicationUser { get; set; }
+
+        // Optional: Add more admin-specific properties or permissions later
     }
-
 }

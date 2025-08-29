@@ -1,34 +1,37 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using SchoolManagementSystem.Data;
+using SchoolManagementSystem.Models.Users;
+using SchoolManagementSystem.Patterns.Interfaces;
+using SchoolManagementSystem.Repositories;
+using SchoolManagementSystem.Services;
+using SchoolManagementSystem.Patterns.Interfaces;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
-var connectionString = builder.Configuration.GetConnectionString("DefaultConnection") ?? throw new InvalidOperationException("Connection string 'DefaultConnection' not found.");
+// Identity DB context
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
-    options.UseSqlServer(connectionString));
+    options.UseSqlServer(builder.Configuration.GetConnectionString("IdentityConnection")));
+
 builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 
-builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
+builder.Services.AddDefaultIdentity<ApplicationUser>(options =>
+    options.SignIn.RequireConfirmedAccount = true)
     .AddEntityFrameworkStores<ApplicationDbContext>();
+
+// School/business DB context
+builder.Services.AddDbContext<SchoolDbContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("SchoolDb")));
+
+// Dependency injection
+builder.Services.AddScoped<SchoolManagementSystem.Patterns.Interfaces.IGradeRepository, GradeRepository>();
+builder.Services.AddScoped<GradebookService>();
+
 builder.Services.AddControllersWithViews();
-
-// for connecting both DB 
-
-//builder.Services.AddDbContext<SecureDbContext>(options =>
-//    options.UseSqlServer(builder.Configuration.GetConnectionString("SecureDB")));
-
-//builder.Services.AddDbContext<SchoolDbContext>(options =>
-//    options.UseSqlServer(builder.Configuration.GetConnectionString("Project_xx_DB")));
-
-//builder.Services.AddIdentity<ApplicationUser, IdentityRole>()
-//    .AddEntityFrameworkStores<SecureDbContext>()
-//    .AddDefaultTokenProviders();
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
+// Middleware
 if (app.Environment.IsDevelopment())
 {
     app.UseMigrationsEndPoint();
@@ -36,7 +39,6 @@ if (app.Environment.IsDevelopment())
 else
 {
     app.UseExceptionHandler("/Home/Error");
-    // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
     app.UseHsts();
 }
 
@@ -44,12 +46,11 @@ app.UseHttpsRedirection();
 app.UseStaticFiles();
 
 app.UseRouting();
-
 app.UseAuthorization();
 
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
-app.MapRazorPages();
 
+app.MapRazorPages();
 app.Run();
