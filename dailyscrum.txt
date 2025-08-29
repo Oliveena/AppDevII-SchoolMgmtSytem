@@ -46,12 +46,13 @@ Khadis
 
 - What has been done? 
 - What needs to be done?
-
 - Any help required?
 
 Kirill
 
 - What has been done?  
+	- SLDC documentation writing
+	- Feasibility study research
 - What needs to be done?
 - Any help required?
 
@@ -114,7 +115,8 @@ Khadis
 
 Kirill
 
-- What has been done?  
+- What has been done?
+	- 
 - What needs to be done?
 - Any help required?
 =======
