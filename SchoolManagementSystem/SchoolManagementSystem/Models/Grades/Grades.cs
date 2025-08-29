@@ -19,5 +19,4 @@ namespace SchoolManagementSystem.Models.Grades
 
         public DateTime DateAssigned{ get; set; }
     }
-
 }
