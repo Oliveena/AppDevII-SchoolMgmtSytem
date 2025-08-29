@@ -1,0 +1,38 @@
+﻿# Build results
+bin/
+obj/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Visual Studio folders
+.vs/
+
+# Rider folders
+.idea/
+
+# VS Code
+.vscode/
+
+# Auto-generated files
+*.dll
+*.exe
+*.cache
+*.pdb
+*.mdb
+*.log
+
+# Razor build files
+**/scopedcss/
+**/staticwebassets.*
+
+# NuGet
+*.nupkg
+*.snupkg
+.nuget/
+
+# Others
+*.db
