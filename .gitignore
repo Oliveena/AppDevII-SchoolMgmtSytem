@@ -2,3 +2,6 @@
 .idea/
 SchoolManagementSystem/.vs/
 SchoolManagementSystem/SchoolManagementSystem/obj/
+SchoolManagementSystem/SchoolManagementSystem/bin
+SchoolManagementSystem/SchoolManagementSystem.Tests/bin
+SchoolManagementSystem/SchoolManagementSystem.Tests/obj
