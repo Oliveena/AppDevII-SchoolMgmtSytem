@@ -1,6 +1,7 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using SchoolManagementSystem.Data;
+using SchoolManagementSystem.Data.Migrations;
 using SchoolManagementSystem.Models.Users;
 using SchoolManagementSystem.Patterns.Interfaces;
 using SchoolManagementSystem.Repositories;
@@ -51,6 +52,11 @@ builder.Services.AddAuthorization(options =>
 });
 
 var app = builder.Build();
+
+using (var scope = app.Services.CreateScope())
+{
+    await IdentitySeeder.SeedAsync(scope.ServiceProvider);
+}
 
 // Middleware
 if (app.Environment.IsDevelopment())
