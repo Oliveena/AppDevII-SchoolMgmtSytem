@@ -21,18 +21,16 @@ builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 // School/business DB context
 builder.Services.AddDbContext<SchoolDbContext>(options =>
     options.UseSqlServer(
-        builder.Configuration.GetConnectionString("IdentityConnection"),
+        builder.Configuration.GetConnectionString("SchoolDb"),
         sql => sql.EnableRetryOnFailure()
     )
 );
 
 // Dependency injection
-builder.Services.AddScoped<SchoolManagementSystem.Patterns.Interfaces.IGradeRepository, GradeRepository>();
+builder.Services.AddScoped<IGradeRepository, GradeRepository>();
 builder.Services.AddScoped<GradebookService>();
 
-builder.Services.AddRazorPages();
-builder.Services.AddControllersWithViews();
-
+// Only this for Identity (with roles)
 builder.Services
     .AddIdentity<ApplicationUser, IdentityRole>(o =>
     {
@@ -40,7 +38,7 @@ builder.Services
         o.User.RequireUniqueEmail = true;
         o.Lockout.MaxFailedAccessAttempts = 5;
     })
-    .AddEntityFrameworkStores<ApplicationDbContext>()   // Identity DB
+    .AddEntityFrameworkStores<ApplicationDbContext>()
     .AddDefaultTokenProviders()
     .AddDefaultUI();
 
@@ -57,6 +55,9 @@ builder.Services.AddAuthorization(options =>
         .RequireAuthenticatedUser()
         .Build();
 });
+
+builder.Services.AddRazorPages();
+builder.Services.AddControllersWithViews();
 
 var app = builder.Build();
 
@@ -88,4 +89,5 @@ app.MapControllerRoute(
     pattern: "{controller=Home}/{action=Index}/{id?}");
 
 app.MapRazorPages();
+
 app.Run();

@@ -8,13 +8,13 @@ namespace SchoolManagementSystem.Models.Users
     {
 
         // fields previously located in "People" table
-        public required string FirstName { get; set; }
-        public required string LastName { get; set; }
-        public required DateTime DateOfBirth { get; set; }
-        public required string PhoneNo { get; set; }
+        public string? FirstName { get; set; }
+        public string? LastName { get; set; }
+        public DateTime? DateOfBirth { get; set; }
+        public string? PhoneNo { get; set; }
 
         // potenital to split of Adress into individual components, once MVP is done
-        public required string Address { get; set; }
+        public string? Address { get; set; }
 
         // Email, Password, etc. are already included by Core Identity fields
 
