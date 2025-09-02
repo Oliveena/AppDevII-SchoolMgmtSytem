@@ -1,7 +1,6 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using SchoolManagementSystem.Data;
-using SchoolManagementSystem.Data.Migrations;
 using SchoolManagementSystem.Models.Users;
 using SchoolManagementSystem.Patterns.Interfaces;
 using SchoolManagementSystem.Repositories;
@@ -11,13 +10,21 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Identity DB context
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("IdentityConnection")));
+    options.UseSqlServer(
+        builder.Configuration.GetConnectionString("IdentityConnection"),
+        sql => sql.EnableRetryOnFailure()
+    )
+);
 
 builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 
 // School/business DB context
 builder.Services.AddDbContext<SchoolDbContext>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("SchoolDb")));
+    options.UseSqlServer(
+        builder.Configuration.GetConnectionString("IdentityConnection"),
+        sql => sql.EnableRetryOnFailure()
+    )
+);
 
 // Dependency injection
 builder.Services.AddScoped<SchoolManagementSystem.Patterns.Interfaces.IGradeRepository, GradeRepository>();

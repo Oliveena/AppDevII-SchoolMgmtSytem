@@ -11,7 +11,7 @@ namespace SchoolManagementSystem.Models.Grades
          public Enrollment Enrollment { get; set; }
 
         public int AssignedByUserId { get; set; }
-        public ApplicationUser AssignedByUser { get; set; }
+        // public ApplicationUser AssignedByUser { get; set; }
 
         public int GradeValue { get; set; }  
 

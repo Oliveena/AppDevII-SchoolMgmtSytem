@@ -11,7 +11,7 @@ namespace SchoolManagementSystem.Models.People
 
         // Link to Identity user
         public required string ApplicationUserId { get; set; }
-        public required ApplicationUser ApplicationUser { get; set; }
+        //public required ApplicationUser ApplicationUser { get; set; }
 
         // Navigation properties
         public ICollection<Course> CoursesTaught { get; set; } = new List<Course>();

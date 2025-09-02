@@ -13,7 +13,7 @@ namespace SchoolManagementSystem.Models.Courses
         public DateTime EndDate { get; set; }
 
         // Computed list of all class dates
-        public ICollection<DateTime> ScheduledClassDates { get; set; } = new List<DateTime>();
+        // public ICollection<DateTime> ScheduledClassDates { get; set; } = new List<DateTime>();
 
         // Navigation properties
         public Teacher Teacher { get; set; }

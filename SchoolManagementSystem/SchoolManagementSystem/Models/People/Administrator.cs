@@ -10,7 +10,7 @@ namespace SchoolManagementSystem.Models.People
 
         // Link to Identity user
         public required string ApplicationUserId { get; set; }
-        public required ApplicationUser ApplicationUser { get; set; }
+        //public required ApplicationUser ApplicationUser { get; set; }
 
         // Optional: Add more admin-specific properties or permissions later
     }

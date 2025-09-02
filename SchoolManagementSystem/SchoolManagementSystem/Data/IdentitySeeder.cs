@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Identity;
 using SchoolManagementSystem.Models.Users;
 
-namespace SchoolManagementSystem.Data.Migrations
+namespace SchoolManagementSystem.Data
 {
     public static class IdentitySeeder
     {
