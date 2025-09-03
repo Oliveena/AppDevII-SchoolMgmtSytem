@@ -36,14 +36,3 @@ obj/
 
 # Others
 *.db
-# Ignore build outputs
-bin/
-obj/
-.vs/
-*.user
-*.suo
-*.cache
-*.exe
-*.dll
-*.pdb
-*.dbmdl

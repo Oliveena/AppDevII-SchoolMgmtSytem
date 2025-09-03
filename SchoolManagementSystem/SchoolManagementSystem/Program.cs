@@ -5,7 +5,6 @@ using SchoolManagementSystem.Models.Users;
 using SchoolManagementSystem.Patterns.Interfaces;
 using SchoolManagementSystem.Repositories;
 using SchoolManagementSystem.Services;
-using SchoolManagementSystem.Patterns.Interfaces;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -15,10 +14,6 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
 
 builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 
-builder.Services.AddDefaultIdentity<ApplicationUser>(options =>
-    options.SignIn.RequireConfirmedAccount = true)
-    .AddEntityFrameworkStores<ApplicationDbContext>();
-
 // School/business DB context
 builder.Services.AddDbContext<SchoolDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("SchoolDb")));
@@ -27,7 +22,33 @@ builder.Services.AddDbContext<SchoolDbContext>(options =>
 builder.Services.AddScoped<SchoolManagementSystem.Patterns.Interfaces.IGradeRepository, GradeRepository>();
 builder.Services.AddScoped<GradebookService>();
 
+builder.Services.AddRazorPages();
 builder.Services.AddControllersWithViews();
+
+builder.Services
+    .AddIdentity<ApplicationUser, IdentityRole>(o =>
+    {
+        o.SignIn.RequireConfirmedAccount = true;
+        o.User.RequireUniqueEmail = true;
+        o.Lockout.MaxFailedAccessAttempts = 5;
+    })
+    .AddEntityFrameworkStores<ApplicationDbContext>()   // Identity DB
+    .AddDefaultTokenProviders()
+    .AddDefaultUI();
+
+builder.Services.ConfigureApplicationCookie(o =>
+{
+    o.LoginPath = "/Identity/Account/Login";
+    o.AccessDeniedPath = "/Identity/Account/AccessDenied";
+    o.SlidingExpiration = true;
+});
+
+builder.Services.AddAuthorization(options =>
+{
+    options.FallbackPolicy = new Microsoft.AspNetCore.Authorization.AuthorizationPolicyBuilder()
+        .RequireAuthenticatedUser()
+        .Build();
+});
 
 var app = builder.Build();
 
@@ -46,6 +67,7 @@ app.UseHttpsRedirection();
 app.UseStaticFiles();
 
 app.UseRouting();
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllerRoute(
